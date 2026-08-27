@@ -1,61 +1,61 @@
-//suma
-
-$num1= 4;
-$num2= 7;
+<?php
+echo "Primer ejemplo: Suma<br>";
+$num1 = 4;
+$num2 = 7;
 $suma = $num1 + $num2;
-echo "la suma de $num1 y $num2 es: $suma";  //la suma de 7 y 4 es de 11
-//resta 
+echo "La suma de $num1 y $num2 es: $suma<br><br>";
 
+echo "Segundo ejemplo: Resta<br>";
 $num3 = 10;
 $num4 = 3;
 $resta = $num3 - $num4;
-echo "la resta de $num3 y $num4 es: $resta"; //la resta de 10 y 3 es 7
-//multiplicacion
+echo "La resta de $num3 y $num4 es: $resta<br><br>";
 
+echo "Tercer ejemplo: Multiplicacion<br>";
 $num5 = 5;
 $num6 = 6;
 $multiplicacion = $num5 * $num6;
-echo "la multiplicacion de $num5 y $num6 es $mutiplcacion"; //la multiplicacion de 5 y 6 es 36
+echo "La multiplicacion de $num5 y $num6 es: $multiplicacion<br><br>";
 
-//division
+echo "Cuarto ejemplo: Division<br>";
 $num7 = 20;
 $num8 = 4;
 $division = $num7 / $num8;
-echo "la division de $num7 y $num8 es: $division"; //la division de 20 y 4 es: 5
+echo "La division de $num7 y $num8 es: $division<br><br>";
 
-//potencia 
-$base = 2 ;
-$exponente = 3;
-$potencia = $base ** $exponente; 
-echo "La potencia de $base elevado a $exponente es : $potencia"; //La potencia de 2 elevado a 3 es: 8
+echo "Quinto ejemplo: Potencia<br>";
+$num9 = 2;
+$num10 = 3;
+$potencia = pow($num9, $num10);
+echo "La potencia de $num9 elevado a $num10 es: $potencia<br><br>";
 
-//modulo 
-$num9= 15;
-$num10= 4;
-$modulo = $num9 % $num10;
-echo "El modulo de $num9 y $num10 es: $modulo"; //El modulo de 15 y 4 es: 3
+echo "Sexto ejemplo: Modulo<br>";
+$num11 = 15;
+$num12 = 4;
+$modulo = $num11 % $num12;
+echo "El modulo de $num11 entre $num12 es: $modulo<br><br>";
 
-//redondeo 
+echo "Septimo ejemplo: Redondeo<br>";
 $numero = 4.6;
-$redondeo = round($numero);
-$redondeado_arriba =  ceil($numero);
+$redondeado = round($numero);
+$redondeado_arriba = ceil($numero);
 $redondeado_abajo = floor($numero);
-echo "El numero $numero redondeado es: $redondeo"; //El numero redondeado es: 5
-echo "El numero $numero redondeado hacia arriba es: $redondeado_arriba"; //El numero redondeado hacia arriba es: 5
-echo "El numero $numero redondeado hacia abajo es: $redondeado_abajo // El numero redondeado hacia abajo es: 4
+echo "El numero sin redondear es: $numero<br>";
+echo "El numero redondeado es: $redondeado<br>";
+echo "El numero redondeado hacia arriba es: $redondeado_arriba<br>";
+echo "El numero redondeado hacia abajo es: $redondeado_abajo<br><br>";
 
-<?php //operaciones matematicas #2
-echo (5 % 3). "/n" ; //muestra: 2
-echo (5 % -3). "/n" ; //muestra: 2
-echo (-5 % 3). "/n" ; //muestra -2
-echo (-5 % -3). "/n" ; //muestra -2
+echo "Octavo ejemplo: Signo en Modulo<br>";
+echo (5 % 3)."<br>";    //muestra 2
+echo (5 % -3) ."<br>";    //muestra 2
+echo (-5 % 3)."<br>";    //muestra -2
+echo (-5 % -3)."<br><br>";    //muestra -2
 
+echo "Noveno ejemplo: Valor absoluto<br>";
+$num = 7;
+$valor_absoluto = abs($num);
+echo "El valor absoluto de $num es: $valor_absoluto";
 ?>
- //valor absoluto 
-$numero1 = -7;
-$valor_absoluto = abs($numero1);
-echo "el valor absoluto de $numero1 es: $valor_absoluto"; //el valor absoluto de -7 es: 7
-
 //Practica 3
 <?php
 $author1= "John Doe";
