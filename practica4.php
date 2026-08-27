@@ -29,3 +29,39 @@ $exponente = 3;
 $potencia = $base ** $exponente; 
 echo "La potencia de $base elevado a $exponente es : $potencia"; //La potencia de 2 elevado a 3 es: 8
 
+//modulo 
+$num9= 15;
+$num10= 4;
+$modulo = $num9 % $num10;
+echo "El modulo de $num9 y $num10 es: $modulo"; //El modulo de 15 y 4 es: 3
+
+//redondeo 
+$numero = 4.6;
+$redondeo = round($numero);
+$redondeado_arriba =  ceil($numero);
+$redondeado_abajo = floor($numero);
+echo "El numero $numero redondeado es: $redondeo"; //El numero redondeado es: 5
+echo "El numero $numero redondeado hacia arriba es: $redondeado_arriba"; //El numero redondeado hacia arriba es: 5
+echo "El numero $numero redondeado hacia abajo es: $redondeado_abajo // El numero redondeado hacia abajo es: 4
+
+<?php //operaciones matematicas #2
+echo (5 % 3). "/n" ; //muestra: 2
+echo (5 % -3). "/n" ; //muestra: 2
+echo (-5 % 3). "/n" ; //muestra -2
+echo (-5 % -3). "/n" ; //muestra -2
+
+?>
+ //valor absoluto 
+$numero1 = -7;
+$valor_absoluto = abs($numero1);
+echo "el valor absoluto de $numero1 es: $valor_absoluto"; //el valor absoluto de -7 es: 7
+
+//Practica 3
+<?php
+$author1= "John Doe";
+$author2= "Max Mustermann";
+echo"<h1>Hello World </h1>
+<p>this dynamic web page was created by $author1 and $author2.</p>";
+?>
+
+
