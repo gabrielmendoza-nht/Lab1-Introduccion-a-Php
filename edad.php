@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Formulario de entrada del dato</title>
+</head>
+
+<body>
+
+    <form method="post" action="pagina2.php">
+
+        Ingrese su nombre:
+        <input type="text" name="nombre" id="nombre">
+
+        <br>
+        <br>
+
+        Ingrese su edad:
+        <input type="number" name="edad" id="edad">
+
+        <br>
+        <br>
+
+        <input type="submit" value="Confirmar">
+
+    </form>
+
+</body>
+
+</html>
