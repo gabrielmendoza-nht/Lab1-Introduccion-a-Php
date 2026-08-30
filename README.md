@@ -4,7 +4,7 @@ Primera práctica de introducción al lenguaje PHP, realizada por **Gabriel Mend
  
 ## 📋 Descripción
  
-Este proyecto es un laboratorio académico enfocado en los fundamentos de PHP: sintaxis básica, variables, formularios `POST`, condicionales y operaciones aritméticas simples. Cada archivo `.php` representa un ejercicio independiente.
+Es un laboratorio enfocado en los fundamentos de PHP: sintaxis básica, variables, formularios `POST`, condicionales y operaciones aritméticas simples. Cada archivo `.php` representa un ejercicio independiente.
  
 ## 📁 Estructura del repositorio
  
