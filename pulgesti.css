@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 100px;
+    color:rgb(89, 42, 165);
+    background-image: url("fondojpg.jpg");
+    background-size: cover;
+}
+
+h2 {
+    color: darkblue;
+}
+
+form {
+    background-color: rgb(67, 178, 206);
+    width: 350px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
