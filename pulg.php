@@ -13,3 +13,4 @@ else{
 echo "$numero pulgadas son: $centi centimetros.";
 
 ?>
+<link rel="stylesheet" href="pulgesti.css">
