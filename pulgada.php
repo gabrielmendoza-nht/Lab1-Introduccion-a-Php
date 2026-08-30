@@ -12,7 +12,8 @@
 Ingresa las pulgadas para convertir a cm:
     <input type="text" name="numero"><br><br>
     <input type="submit" value="Convertir">
+    
 </form>
-
+<body class="resultado-pagina"></body>
 </body>
 </html>
