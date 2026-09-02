@@ -33,7 +33,7 @@ Es un laboratorio enfocado en los fundamentos de PHP: sintaxis básica, variable
  
 - PHP 7.4 o superior
 - Un servidor local (XAMPP, WAMP, MAMP) o el servidor embebido de PHP
-## ✍️ Autor
+##  Autor
  
 **Gabriel Mendoza**
 Práctica realizada como parte de la introducción al lenguaje PHP.
