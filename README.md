@@ -28,18 +28,7 @@ Es un laboratorio enfocado en los fundamentos de PHP: sintaxis básica, variable
 - **HTML** – estructura de los formularios y páginas
 - **CSS** – estilos básicos
 - **C** – archivo comparativo en `practica4.c`
-## 🚀 Cómo ejecutar el proyecto
- 
-1. Clonar el repositorio:
-```bash
-   git clone https://github.com/gabrielmendoza-nht/Lab1-Introduccion-a-Php.git
-```
-2. Colocarlo dentro del directorio de tu servidor local (por ejemplo, `htdocs` si usas XAMPP, o `www` si usas WAMP/MAMP).
-3. Inicia Apache y PHP desde tu panel de control (XAMPP/WAMP/MAMP) o ejecuta el servidor embebido de PHP:
-```bash
-   php -S localhost:8000
-```
-4. Abre el navegador en `http://localhost:8000/calculadora.php` (o el archivo que quieras probar).
+
 ## 📌 Requisitos
  
 - PHP 7.4 o superior
