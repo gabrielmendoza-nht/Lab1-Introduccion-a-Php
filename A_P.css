@@ -1,0 +1,136 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #4facfe);
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 450px;
+}
+
+/* Títulos */
+h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333333;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Texto de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Campos de entrada */
+input[type="number"] {
+    width: 80%;
+    padding: 12px;
+
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+/* Cuando seleccionamos el campo */
+input[type="number"]:focus {
+    border-color: #4facfe;
+}
+
+/* Menú de selección */
+select {
+    width: 80%;
+    padding: 12px;
+
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    background-color: white;
+
+    cursor: pointer;
+    outline: none;
+}
+
+/* Cuando seleccionamos el menú */
+select:focus {
+    border-color: #4facfe;
+}
+
+/* Botón */
+button {
+    background-color: #0066ff;
+    color: white;
+
+    border: none;
+    padding: 12px 30px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: #004dcc;
+    transform: scale(1.05);
+}
+
+/* Caja de resultados */
+.resultado {
+    background-color: white;
+    color: #333333;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+    font-size: 18px;
+}
+
+/* Título de resultados */
+.resultado h3 {
+    color: #0066ff;
+}
+
+/* Valores */
+.resultado strong {
+    color: #0066ff;
+    font-size: 20px;
+}
+
+/* Separación de resultados */
+.resultado p {
+    margin: 15px 0;
+}

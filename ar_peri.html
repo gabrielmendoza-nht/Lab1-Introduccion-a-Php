@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Indica que usamos HTML5 -->
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título de la página -->
+    <title>Laboratorio #1 - Área y Perímetro</title>
+
+    <!-- Conecta el HTML con el CSS -->
+    <link rel="stylesheet" href="A_P.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- Título -->
+    <h2>Problema #1</h2>
+
+    <!-- Descripción -->
+    <p>Calcular el área y el perímetro de una circunferencia.</p>
+
+    <!-- Formulario que envía los datos al PHP -->
+    <form method="POST" action="Area_Perimetro.php">
+
+        <!-- Campo para introducir el radio -->
+        <label for="radio">
+            Introduzca el radio de la circunferencia:
+        </label>
+
+        <input
+            type="number"
+            step="any"
+            id="radio"
+            name="radio"
+            min="0"
+            required
+        >
+
+        <br><br>
+
+        <!-- Menú para seleccionar la operación -->
+        <label for="operacion">
+            Seleccione la operación:
+        </label>
+
+        <select name="operacion" id="operacion">
+
+            <!-- Calcular área -->
+            <option value="area">Área</option>
+
+            <!-- Calcular perímetro -->
+            <option value="perimetro">Perímetro</option>
+
+            <!-- Calcular ambos -->
+            <option value="ambos">Área y Perímetro</option>
+
+        </select>
+
+        <br><br>
+
+        <!-- Botón para enviar los datos -->
+        <button type="submit">Calcular</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
