@@ -2,27 +2,28 @@
 
 <head>
     <title>Formulario de entrada del dato</title>
+    <link rel="stylesheet" href="ed.css">
 </head>
 
 <body>
 
-    <form method="post" action="pagina2.php">
+    <div class="contenedor">
 
-        Ingrese su nombre:
-        <input type="text" name="nombre" id="nombre">
+        <h2>Formulario </h2>
 
-        <br>
-        <br>
+        <form method="post" action="pagina2.php">
 
-        Ingrese su edad:
-        <input type="number" name="edad" id="edad">
+            <label>Ingrese su nombre:</label>
+            <input type="text" name="nombre" id="nombre">
 
-        <br>
-        <br>
+            <label>Ingrese su edad:</label>
+            <input type="number" name="edad" id="edad">
 
-        <input type="submit" value="Confirmar">
+            <input type="submit" value="Confirmar">
 
-    </form>
+        </form>
+
+    </div>
 
 </body>
 
